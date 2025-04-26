@@ -1,0 +1,201 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+.header {
+  background-color: brown;
+  margin: 0;
+  padding: 10px;
+  color: wheat;
+  text-align: center;
+}
+
+.navigation-tabs {
+  background: bisque;
+  padding: 8px;
+  display: flex;
+  gap: 15px;
+}
+
+.tab-button {
+  border: none;
+  background: transparent;
+  font-size: 16px;
+  color: #333;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-right: 2px solid transparent;
+  transition: color 0.3s, border-right-color 0.3s;
+}
+
+.tab-button:hover {
+  color: #007bff;
+  border-right-color: #007bff;
+}
+
+.tab-button.active {
+  color: #007bff;
+  border-right-color: #007bff;
+}
+
+.issued-books-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.issued-books-container h2 {
+  text-align: center;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.issued-books-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.issued-books-table th,
+.issued-books-table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.issued-books-table th {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.issued-books-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.issued-books-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.issued-books-table td {
+  color: #555;
+}
+
+.form-container {
+  width: 54%;
+  margin: AUTO;
+}
+
+.form h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 54%;
+  margin: AUTO;
+}
+
+.input-field {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.submit-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #45a049;
+}
+.book-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-table th,
+.book-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.book-table th {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.book-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.book-table tr:hover {
+  background-color: #e9ecef;
+}
+
+.edit-button,
+.delete-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+.return-button {
+  padding: 6px 12px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.return-button:hover {
+  background-color: #218838;
+}
+
+.return-button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
